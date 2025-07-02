@@ -4,7 +4,8 @@ body {
     display: flexbox;
     justify-content: center;
     align-items: center;
-    margin: 200px 0;
+    margin: 20About
+0px 0;
     /* width: 50%; */
 
     background-image: url("bg-image-studio-3.png"); 
@@ -27,14 +28,18 @@ fieldset {
     margin: 0 auto;
     background-color: aliceblue;
     opacity: 90%;
+
+    font-weight: bolder;
 }
 
 button {
-    position: relative;
-    top: -6px;
-    left: 5px;
+    margin-top: 10px;
     width: auto;
-
 }
 
+.flex {
+    display: flex;
+    flex-direction: column;
+
+}
 
