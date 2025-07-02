@@ -1,0 +1,59 @@
+<!-- Example = https://survey-form.freecodecamp.rocks/ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Online Guitar School Signup Form</h1>
+            <p id="description">Interested in improving your guitar skills with us? Sign up below!</p>            
+        </header>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Name" required>
+            </fieldset>
+            <fieldset>
+                <label id="email-label" for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Email" required>
+            </fieldset>
+            <fieldset>
+                <label id="number-label" for="number">Age (optional)</label>
+                <input id="number" name="age" type="number" placeholder="Age" min="1" max="99">
+            </fieldset>
+            <fieldset>
+                <label id="dropdown-label" for="dropdown">Which option best describes your experience level?</label>
+                <select id="dropdown" name="experience">
+                    <option value="beginner">Beginner</option>          
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <p>Are you interested in private lessons?</p>
+                <label for=""><input type="radio" class="input-radio" name="private-lessons" value="yes" checked>Yes</label>
+                <label for=""><input type="radio" class="input-radio" name="private-lessons" value="no">No</label>
+            </fieldset>
+            <fieldset>
+                <p>What styles of music do you enjoy listening to? (select one or more)</p>
+                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="acoustic">Acoustic</label>
+                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="blues">Blues</label>
+                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="classical">Classical</label>
+                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="jazz">Jazz</label>
+                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="pop">Pop</label>
+                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="rock">Rock</label>
+                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="r&b">R&B</label>
+            </fieldset>
+            <fieldset>
+                <p>Please enter any extra information about your musical interests and goals!</p>
+                <textarea id="extra-info" name="extra-info" class="text-area" placeholder="Enter extra info here!"></textarea>
+                <button id="submit" type="submit">SUBMIT</button>
+            </fieldset>
+        </form>
+    </body>
+</html>

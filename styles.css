@@ -1,0 +1,40 @@
+
+
+body {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+    /* width: 50%; */
+
+    background-image: url("bg-image-studio-3.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+header {
+   
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+fieldset {
+    width: 50%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    opacity: 90%;
+}
+
+button {
+    position: relative;
+    top: -6px;
+    left: 5px;
+    width: auto;
+
+}
+
+
