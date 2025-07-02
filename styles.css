@@ -4,9 +4,7 @@ body {
     display: flexbox;
     justify-content: center;
     align-items: center;
-    margin: 20About
-0px 0;
-    /* width: 50%; */
+    margin: 50px 0px;   
 
     background-image: url("bg-image-studio-3.png"); 
     background-size: cover;
@@ -16,11 +14,19 @@ body {
 
 
 header {
-   
     text-align: center;
     margin: 0 auto;
     color: white;
     text-shadow: 1px 1px 1px black;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 25px;
 }
 
 fieldset {
@@ -28,7 +34,7 @@ fieldset {
     margin: 0 auto;
     background-color: aliceblue;
     opacity: 90%;
-
+    font-size: x-large;
     font-weight: bolder;
 }
 
@@ -40,6 +46,5 @@ button {
 .flex {
     display: flex;
     flex-direction: column;
-
 }
 
