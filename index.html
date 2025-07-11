@@ -41,15 +41,20 @@
             </fieldset>
             <fieldset class="flex">
                 <p>What styles of music do you enjoy listening to? (select one or more)</p>
-                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="acoustic">Acoustic</label>
-                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="blues">Blues</label>
-                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="classical">Classical</label>
-                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="jazz">Jazz</label>
-                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="pop">Pop</label>
-                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="rock">Rock</label>
-                <label><input type="checkbox" class="input-checkbox" name="enjoy" value="r&b">R&B</label>
+                <div class="checkboxes">
+                    <label><input type="checkbox" class="input-checkbox" name="enjoy" value="acoustic">Acoustic</label>
+                    <label><input type="checkbox" class="input-checkbox" name="enjoy" value="blues">Blues</label>
+                    <label><input type="checkbox" class="input-checkbox" name="enjoy" value="classical">Classical</label>
+                    <label><input type="checkbox" class="input-checkbox" name="enjoy" value="jazz">Jazz</label>
+                </div>
+                <div class="checkboxes">
+                    <label><input type="checkbox" class="input-checkbox" name="enjoy" value="metal">Metal</label>
+                    <label><input type="checkbox" class="input-checkbox" name="enjoy" value="pop">Pop</label>
+                    <label><input type="checkbox" class="input-checkbox" name="enjoy" value="rock">Rock</label>
+                    <label><input type="checkbox" class="input-checkbox" name="enjoy" value="r&b">R&B</label>
+                </div>
             </fieldset>
-            <fieldset class="flex">
+            <fieldset class="flex txt-btn">
                 <p>Please enter any extra information about your musical interests and goals!</p>
                 <textarea id="extra-info" name="extra-info" class="text-area" placeholder="Enter extra info here!"></textarea>
                 <button id="submit" type="submit">SUBMIT</button>

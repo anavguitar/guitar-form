@@ -38,13 +38,22 @@ fieldset {
     font-weight: bolder;
 }
 
-button {
-    margin-top: 10px;
-    width: auto;
-}
 
 .flex {
     display: flex;
     flex-direction: column;
 }
 
+button {
+    margin-top: 10px;
+    width: 10vw;
+}
+
+#extra-info {
+    width: 90%;
+    height: 100px;
+}
+
+.txt-btn {
+    align-items: center;
+}
