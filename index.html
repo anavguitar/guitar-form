@@ -15,15 +15,15 @@
         </header>
         <form id="survey-form">
             <fieldset>
-                <label id="name-label" for="name">Name</label>
+                <label id="name-label" for="name">Name: </label>
                 <input id="name" name="name" type="text" placeholder="Name" required>
             </fieldset>
             <fieldset>
-                <label id="email-label" for="email">Email</label>
+                <label id="email-label" for="email">Email: </label>
                 <input id="email" name="email" type="email" placeholder="Email" required>
             </fieldset>
             <fieldset>
-                <label id="number-label" for="number">Age (optional)</label>
+                <label id="number-label" for="number">Age (optional): </label>
                 <input id="number" name="age" type="number" placeholder="Age" min="1" max="99">
             </fieldset>
             <fieldset>
@@ -43,13 +43,19 @@
                 <p>What styles of music do you enjoy listening to? (select one or more)</p>
                 <div class="container-checkbox">
                     <div class="checkboxes">
-                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="acoustic">Acoustic</label>
-                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="blues">Blues</label>
                         <label><input type="checkbox" class="input-checkbox" name="enjoy" value="classical">Classical</label>
+                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="metal">Metal</label>            
+                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="blues">Blues</label>                    
                         <label><input type="checkbox" class="input-checkbox" name="enjoy" value="jazz">Jazz</label>
                     </div>
                     <div class="checkboxes">
-                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="metal">Metal</label>
+                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="country">Country</label>
+                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="pop">Reggae</label>
+                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="rock">Funk</label>
+                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="r&b">Indie</label>
+                    </div>
+                    <div class="checkboxes">
+                        <label><input type="checkbox" class="input-checkbox" name="enjoy" value="acoustic">Acoustic</label>
                         <label><input type="checkbox" class="input-checkbox" name="enjoy" value="pop">Pop</label>
                         <label><input type="checkbox" class="input-checkbox" name="enjoy" value="rock">Rock</label>
                         <label><input type="checkbox" class="input-checkbox" name="enjoy" value="r&b">R&B</label>

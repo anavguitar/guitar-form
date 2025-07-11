@@ -39,6 +39,9 @@ fieldset {
     font-weight: bolder;
 }
 
+#name, #email {
+    width: 75%;
+}
 
 .flex {
     display: flex;
