@@ -57,7 +57,13 @@ fieldset {
 .checkboxes {
     display: flex;
     flex-direction: column;
-    font-size: medium;
+    font-size: clamp(10px, 12px, 15px);
+}
+
+.checkboxes label {
+    display: flex;
+    flex-direction: row:
+    align-items: center;
 }
 
 button {
